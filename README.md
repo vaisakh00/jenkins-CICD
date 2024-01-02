@@ -11,9 +11,9 @@ Initially, we are going to setup Jenkins server
  
 Jenkins installation steps 
 
-**sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo 
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key 
-sudo yum upgrade**
+**sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo**
+**sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key** 
+**sudo yum upgrade**
 
 Add required dependencies for the jenkins package 
 
