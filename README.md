@@ -36,11 +36,12 @@ sudo systemctl daemon-reload
 
 sudo systemctl enable --now jenkins```
 
+
 Browse to http://localhost:8080 and wait until the Unlock Jenkins page appears. 
 
 need to get the Administrator Password from 
 
-`cat /var/lib/jenkins/secrets/initialAdminPassword`
+cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
  
